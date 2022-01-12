@@ -28,8 +28,195 @@
         </div>
       </nav>
     </header>
+    <!--hero image and cerousal-->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleCaptions"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="../Images/sigiriya-g4d2d1a753_1920.jpg"
+            class="d-block carousel-img"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Sigiriya</h5>
+            <p>
+              Sigiriya, an ancient rock fortress and former royal palace, is one
+              of Sri Lanka's most visited and best-known sights
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../Images/elephants-g145bfffd5_1280.jpg"
+            class="d-block carousel-img"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-dark">Pinnawala</h5>
+            <p class="text-dark">
+              is an orphanage, nursery and captive breeding ground for wild
+              Asian elephants located at Pinnawala village
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../Images/hikkaduwa-g17dc97ea2_1280.jpg"
+            class="d-block carousel-img"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Hikkaduwa</h5>
+            <p>
+              Famous for its long sandy beach, west-coast Hikkaduwa also boasts
+              good waves for surfers
+            </p>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleCaptions"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleCaptions"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!--search section-->
+    <section class="conatainer search">
+      <h3 class="h3 text-center mt-5">Search a location</h3>
+      <form
+        class="mt-5 row justify-content-center"
+        action="#"
+        method="get"
+        id="search"
+      >
+        <input
+          class="rounded border-0 col-md-4 search box"
+          type="text"
+          placeholder="Search a location"
+          name="location_on_search"
+        />
+        <div class="col-md-2 mt-3 district">
+          <label for="district"> Select a district</label>
+          <select class="ms-4 rounded" name="district" id="district">
+            <option value="Kegalle">Ampara</option>
+            <option value="Kegalle">Anuradhapura</option>
+            <option value="Kegalle">Badulla</option>
+            <option value="Kegalle">Batticaloa</option>
+            <option value="Kegalle">Colombo</option>
+            <option value="Kegalle">Galle</option>
+            <option value="Kegalle">Gampaha</option>
+            <option value="Kegalle">Hambantota</option>
+            <option value="Kegalle">Jaffna</option>
+            <option value="Kegalle">Kalutara</option>
+            <option value="Kegalle">Kandy</option>
+            <option value="Kegalle">Kegalle</option>
+            <option value="Kegalle">Kilinochchi</option>
+            <option value="Kegalle">Kurunegala</option>
+            <option value="Kegalle">Mannar</option>
+            <option value="Kegalle">Matale</option>
+            <option value="Kegalle">Matara</option>
+            <option value="Kegalle">Monaragala</option>
+            <option value="Kegalle">Mullaitivu</option>
+            <option value="Kegalle">Nuwara Eliya</option>
+            <option value="Kegalle">Polonnaruwa</option>
+            <option value="Kegalle">Puttalam</option>
+            <option value="Kegalle">Ratnapura</option>
+            <option value="Kegalle">Trincomalee</option>
+            <option value="Kegalle">Vavuniya</option>
+          </select>
+        </div>
+        <div class="col-md-2 mt-3 province">
+          <label for="province">Select a province</label>
+          <select name="province" id="province">
+            <option value="null">Central</option>
+            <option value="null">Eastern</option>
+            <option value="null">North Central</option>
+            <option value="null">Northern</option>
+            <option value="null">North Western</option>
+            <option value="null">Sabaragamuwa</option>
+            <option value="null">Southern</option>
+            <option value="null">Uva</option>
+            <option value="null">Western</option>
+          </select>
+        </div>
+      </form>
+    </section>
+    <!--Sri Lanka details-->
+    <section class="SLdetails">
+      <div class="row flex-column">
+        <img
+          class="w-25 mt-5 m-auto"
+          src="../Images/sri-lanka-removebg-preview.png"
+          alt=""
+        />
+      </div>
+      <h2 class="h2 text-center">Pearl od the Indian Ocean</h2>
+      <p class="para_of_SL text-center">
+        formerly known as Ceylon, and officially the Democratic Socialist
+        Republic of Sri Lanka, is an island country in South Asia. It lies in
+        the Indian Ocean, southwest of the Bay of Bengal, and southeast of the
+        Arabian Sea; it is separated from the Indian subcontinent by the Gulf of
+        Mannar and the Palk Strait. Sri Lanka shares a maritime border with
+        India and the Maldives. Sri Jayawardenepura Kotte is its legislative
+        capital, and Colombo is its largest city and financial centre. Sri
+        Lanka's documented history goes back 3,000 years, with evidence of
+        prehistoric human settlements that dates to at least 125,000 years
+        ago.[14] It has a rich cultural heritage. The earliest known Buddhist
+        writings of Sri Lanka, known collectively as the Pāli canon, date to the
+        fourth Buddhist council, which took place in 29 BCE.[15][16] Sri Lanka's
+        geographic location and deep harbours have made it of great strategic
+        importance, from the earliest days of the ancient Silk Road trade route
+        to today's so-called maritime Silk Road. In antiquity, Sri Lanka was
+        known to travellers by a variety of names. According to the Mahavamsa,
+        the legendary Prince Vijaya named the island Tambapanni ('copper-red
+        hands' or 'copper-red earth'), because his followers' hands were
+        reddened by the red soil of the area where he landed.[22][23] In Hindu
+        mythology, the term Lankā ('Island') appears but its unknown whether it
+        refers to the modern day state. But scholars generally agree that it
+        must have been Sri Lanka because it is so stated in the 5th century Sri
+        Lankan text Mahavamsa.[24] The Tamil term Eelam (Tamil: ஈழம், romanized:
+        īḻam) was used to designate the whole island in Sangam
+        literature.[25][26] The island was known under Chola rule as Mummudi
+        Cholamandalam ('realm of the three crowned Cholas').[27] Ancient Greek
+        geographers called it Taprobanā (Ancient Greek: Ταπροβανᾶ) or Taprobanē
+        (Ταπροβανῆ)[28] from the word Tambapanni. The Persians and Arabs
+        referred to it as Sarandīb (the origin of the word "serendipity") from
+        Sanskrit Siṃhaladvīpaḥ.[29][30] Ceilão, the name given to Sri Lanka by
+        the Portuguese Empire when it arrived in 1505,[31] was transliterated
+        into English as Ceylon.[32] As a British crown colony, the island was
+        known as Ceylon; it achieved independence as the Dominion of Ceylon in
+        1948.
+      </p>
+    </section>
+
     <!--Footer-->
-    <footer class="conatainer border position-absolute w-100 m-0 p-0 bottom-0">
+    <footer class="conatainer border position-absolute w-100 m-0 p-0">
       <div class="row w-100 justify-content-center m-0 pt-3 text-center">
         <div class="col-md-4">
           <h4 class="h4">Quick Links</h4>
